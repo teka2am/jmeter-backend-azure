@@ -66,7 +66,7 @@ public class AzureBackendClient extends AbstractBackendListenerClient {
     /**
      * Truncated length of the request and response data.
      */
-    private static final int MAX_DATA_LENGTH = 1024;
+    private static final int MAX_DATA_LENGTH = 350000;
 
     /**
      * Application Insights telemetry client.
